@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <script src="https://kit.fontawesome.com/3c8d9c7c2a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__left">
+                <a class="nav__link" href="#">About</a> 
+                <a class="nav__link" href="#">Store</a> 
+            </div>
+            <div class="nav__right">
+                <a class="nav__link" href="#">Gmail</a> 
+                <a class="nav__link" href="#">Images</a> 
+                <a class="nav__link--image" href="#"><img class="nav__app-menu" src="https://img.icons8.com/color/48/000000/squared-menu.png"/></a>
+                <button class="button button--nav">Sign in</button>
+            </div>  
+        </nav>
+    </header>
+
+    <main class="main">
+        <img class="logo" src="images/logo.svg" alt="Google company logo">
+        <form class="container">
+            <fieldset class="search-form">
+                <div class="search-form__input-container">
+                    <input class="search-form__input" type="text">
+                    <i class="search-form__icon fas fa-search"></i>
+                </div>
+                <div class="search-form__buttons">
+                    <button class="button button--search">Google Search</button>
+                    <button class="button button--search">I'm Feeling Lucky</button>
+                </div>
+                
+            </fieldset>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__top">
+            <p class="footer__label">Australia</p>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__left">
+                <a class="footer__link" href="#">Advertising</a> 
+                <a class="footer__link" href="#">Business</a> 
+                <a class="footer__link" href="#">How Search works</a>  
+            </div>
+            <div class="footer__right">
+                <a class="footer__link" href="#">Privacy</a> 
+                <a class="footer__link" href="#">Terms</a>
+                <a class="footer__link" href="#">Settings</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
