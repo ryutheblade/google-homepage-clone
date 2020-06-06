@@ -43,9 +43,6 @@
     </main>
 
     <footer class="footer">
-        <div class="footer__top">
-            <p class="footer__label">Australia</p>
-        </div>
         <div class="footer__bottom">
             <div class="footer__left">
                 <a class="footer__link" href="#">Advertising</a> 
